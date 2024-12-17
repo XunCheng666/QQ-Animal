@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="524dp"
+        android:layout_height="45dp"
+        android:background="#9C27B0"
+        android:gravity="left"
+        android:text="动物问答（作者：王舒琦2308070216）"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, "
+        android:background="#FFEB3B"
+        android:textColor="#E91E1E"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/animal_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
